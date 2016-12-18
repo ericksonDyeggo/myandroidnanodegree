@@ -19,6 +19,9 @@ out/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
+# NDK
+obj/
+
 # Android Studio
 *.iml
 .gradle/
