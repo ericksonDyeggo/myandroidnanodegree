@@ -25,7 +25,11 @@ obj/
 # Android Studio
 *.iml
 .gradle/
+gradle/
 local.properties
+gradle.properties
+gradlew
+gradlew.bat
 .idea
 .DS_Store
 build/

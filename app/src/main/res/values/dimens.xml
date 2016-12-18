@@ -5,4 +5,7 @@
 
     <!--Default size for titles-->
     <dimen name="activity_title_size">18sp</dimen>
+
+    <!--Default size of buttons letter-->
+    <dimen name="button_text_size">18sp</dimen>
 </resources>
