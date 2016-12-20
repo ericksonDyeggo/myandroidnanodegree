@@ -14,12 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void mockUpClick(View v) {
-        Button b = (Button) v;
+    public void mockUpClick(View view) {
+        Button button = (Button) view;
 
-        String message = (String) this.getText(R.string.mockup_message);
-
-        String msg_toast = String.format(message, b.getText().toString());
+        String msg_toast = getString(R.string.mockup_message, button.getText().toString());
 
         Toast.makeText(
                 this
